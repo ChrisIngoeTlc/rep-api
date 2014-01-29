@@ -1,0 +1,26 @@
+{
+  "name": "rep-api",
+  "description": "Interface for sales rep data providers",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ThomsonLocal/rep-api",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ThomsonLocal/rep-api"
+  },
+  "author": {
+    "name": "Chris Ingoe",
+    "email": "christopher.ingoe@thomsonlocal.com"
+  },
+  "contributors": [
+    {
+      "name": "Torquil Chapman"
+    }
+  ],
+  "dependencies": {
+    "restify": ">= 1.2.0",
+    "nconf": "0.6.x",
+    "bunyan": "0.21.x",
+    "winston": "~0.7.2"
+  },
+  "engine": "node 0.10.22"
+}

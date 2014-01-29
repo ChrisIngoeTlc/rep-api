@@ -1,0 +1,25 @@
+{
+  "Server" : {
+    "Port"           : 8083,
+    "Name"           : "rep-api",
+    "DefaultVersion" : "1.0.0",
+    "Acceptable"     : [ "application/json" ],
+    "ThrottleRate"   : 50,
+    "ThrottleBurst"  : 100
+  },
+  "ServerLogging" : {
+    "Name"        : "ServerLogging",
+    "Dir"         : "./logs/",
+    "File"        : "rep-api-server.log"
+  },
+  "ApplicationLogging" : {
+    "Name"        : "ApplicationLogging",
+    "Dir"         : "./logs/",
+    "File"        : "rep-api.log",
+    "Level"       : "debug"
+  },
+  "Data" : {
+      "ConnectionString"        : "Driver={SQL Server Native Client 11.0};Server=svpts01;Database=foundationsupportdb;UID=app_access;PWD=snapsh0t",
+      "RepDetailsSp"        : "foundationsupportdb.dbo.fou_api_rep_details_get"
+  }
+}
