@@ -19,7 +19,7 @@
     "Level"       : "debug"
   },
   "Data" : {
-      "ConnectionString"        : "Driver={SQL Server Native Client 11.0};Server=svpts01;Database=foundationsupportdb;UID=app_access;PWD=snapsh0t",
-      "RepDetailsSp"        : "foundationsupportdb.dbo.fou_api_rep_details_get"
+      "ConnectionString"        : "Driver={SQL Server Native Client 11.0};Server=[SERVER];Database=[DATABASE];UID=[USER];PWD=[PASSWORD]",
+      "RepDetailsSp"        : "[SP]"
   }
 }
